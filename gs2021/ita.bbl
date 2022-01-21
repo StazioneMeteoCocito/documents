@@ -1,0 +1,194 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{pm10}{article}{}
+      \name{author}{12}{}{%
+        {{hash=68784dcdb4e557d17a836e6e93e46dfe}{%
+           family={Consonni},
+           familyi={C\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=659de6c07becb241463740ecae900ed9}{%
+           family={Carugno},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6a1f03cc5934eae28044cb06792656b5}{%
+           family={De\bibnamedelima Matteis},
+           familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=31ba4d7d3aae482c9eedd07eca48163e}{%
+           family={Nordio},
+           familyi={N\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4e27e6846f88d65592ffca8faf64043b}{%
+           family={Randi},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=53862ec2ab1a40926d40bacd2747c881}{%
+           family={Bazzano},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=26c1ecce2c3c9e4a037d3d30d66f4ac1}{%
+           family={Caporaso},
+           familyi={C\bibinitperiod},
+           given={N.\bibnamedelimi E.},
+           giveni={N\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=1cdd473fe565b7bb95294748c6995fd2}{%
+           family={Tucker},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c2b45c2376088e146e156e86161cab1f}{%
+           family={Bertazzi},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6b88416cc8380d915d571f5a73062ba4}{%
+           family={Pesatori},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=45dff4dfb6dae9b788e214c90ce5a4dc}{%
+           family={Lubin},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9efecd07e7631b4287ef10ddd760e1e4}{%
+           family={Landi},
+           familyi={L\bibinitperiod},
+           given={M.\bibnamedelimi T.},
+           giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{00fb47390134959bd656d3c603a7a201}
+      \strng{fullhash}{eb2fec73aa1512c62b3729dc353a47ba}
+      \strng{bibnamehash}{00fb47390134959bd656d3c603a7a201}
+      \strng{authorbibnamehash}{00fb47390134959bd656d3c603a7a201}
+      \strng{authornamehash}{00fb47390134959bd656d3c603a7a201}
+      \strng{authorfullhash}{eb2fec73aa1512c62b3729dc353a47ba}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS One}
+      \field{number}{9}
+      \field{shorthand}{Consonni et al. 2018}
+      \field{title}{{{O}utdoor particulate matter ({P}{M}10) exposure and lung cancer risk in the {E}{A}{G}{L}{E} study}}
+      \field{volume}{13}
+      \field{year}{2018}
+      \field{pages}{e0203539}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0203539
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0203539
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0203539
+      \endverb
+    \endentry
+    \entry{pm101996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=43a6dceb4a1ceff0fdbd73b007d4b35b}{%
+           family={Thurston},
+           familyi={T\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{43a6dceb4a1ceff0fdbd73b007d4b35b}
+      \strng{fullhash}{43a6dceb4a1ceff0fdbd73b007d4b35b}
+      \strng{bibnamehash}{43a6dceb4a1ceff0fdbd73b007d4b35b}
+      \strng{authorbibnamehash}{43a6dceb4a1ceff0fdbd73b007d4b35b}
+      \strng{authornamehash}{43a6dceb4a1ceff0fdbd73b007d4b35b}
+      \strng{authorfullhash}{43a6dceb4a1ceff0fdbd73b007d4b35b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{J Expo Anal Environ Epidemiol}
+      \field{number}{1}
+      \field{shorthand}{Thurston et al. 1996}
+      \field{title}{{{A} critical review of {P}{M}10-mortality time-series studies}}
+      \field{volume}{6}
+      \field{year}{1996}
+      \field{pages}{3\bibrangedash 21}
+      \range{pages}{19}
+    \endentry
+    \entry{pmcovid}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c35312360f58b6b28307294c011c6f1b}{%
+           family={Zoran},
+           familyi={Z\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=fe466c2a891acee7e5b093d84a637034}{%
+           family={Savastru},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=ae49558f546a12c683cd388c0ddeaf2c}{%
+           family={Savastru},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0c52bb6cdb368821e74b583b616405df}{%
+           family={Tautan},
+           familyi={T\bibinitperiod},
+           given={M.\bibnamedelimi N.},
+           giveni={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd586117f9b3430b34fe3c1a83a09bb8}
+      \strng{fullhash}{4ab1d58e334a2392c40242636180e186}
+      \strng{bibnamehash}{bd586117f9b3430b34fe3c1a83a09bb8}
+      \strng{authorbibnamehash}{bd586117f9b3430b34fe3c1a83a09bb8}
+      \strng{authornamehash}{bd586117f9b3430b34fe3c1a83a09bb8}
+      \strng{authorfullhash}{4ab1d58e334a2392c40242636180e186}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sci Total Environ}
+      \field{month}{10}
+      \field{shorthand}{Zoran et al. 2020}
+      \field{title}{{{A}ssessing the relationship between surface levels of {P}{M}2.5 and {P}{M}10 particulate matter impact on {C}{O}{V}{I}{D}-19 in {M}ilan, {I}taly}}
+      \field{volume}{738}
+      \field{year}{2020}
+      \field{pages}{139825}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.scitotenv.2020.139825
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.scitotenv.2020.139825
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.scitotenv.2020.139825
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,147 @@
+\begin{figure}
+\centering
+\includegraphics[]{FC22.png}\\
+\caption{\emph{FC22}}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}
+\centering
+\includegraphics[]{sds011.jpg}\\
+\caption{\emph{SDS011}}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+%\includegraphics[width=1.0\textwidth]{Image.eps}
+\includegraphics[height=0.95\textheight]{board.png}
+\caption{Depiction of the board}
+\label{fig:board}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+\centering
+%\includegraphics[width=1.0\textwidth]{Image.eps}
+\includegraphics[height=0.95\textheight]{schema.png}
+\caption{Diagram of the board}
+\label{fig:schema}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[!h]
+  \noindent\makebox[\textwidth]{
+\begin{tabular}{ccc}
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[
+date coordinates in=x,
+xtick=data,
+xticklabel style=
+{rotate=90,anchor=near xticklabel},
+xticklabel=\day/\month/\year,
+title={Humidity},
+xlabel={Date ($dd/mm/yyyy$)},
+xtick={2021-07-28, 2021-08-23,2021-11-02,2021-11-27},
+y tick label style={/pgf/number format/1000 sep=},
+extra y tick style={grid=major, tick label style={xshift=-1cm}},
+ylabel={Humidity ($\%$)},
+date ZERO=2021-01-01,% <- improves precision!
+]
+\addplot[black] table[x=date,y=value] {humidity.dat};
+\end{axis}
+\end{tikzpicture} &
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[
+date coordinates in=x,
+xtick=data,
+xticklabel style=
+{rotate=90,anchor=near xticklabel},
+xticklabel=\day/\month/\year,
+title={Temperature},
+xlabel={Date ($dd/mm/yyyy$)},
+xtick={2021-07-28, 2021-08-23,2021-11-02,2021-11-27},
+y tick label style={/pgf/number format/1000 sep=},
+extra y tick style={grid=major, tick label style={xshift=-1cm}},
+ylabel={Temperature  ($°C$)},
+date ZERO=2021-01-01,% <- improves precision!
+]
+\addplot[black] table[x=date,y=value] {temperature.dat};
+\end{axis}
+\end{tikzpicture} &
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[
+date coordinates in=x,
+xtick=data,
+xticklabel style=
+{rotate=90,anchor=near xticklabel},
+xticklabel=\day/\month/\year,
+title={Pressure},
+xlabel={Date ($dd/mm/yyyy$)},
+xtick={2021-07-28, 2021-08-23,2021-11-02,2021-11-27},
+y tick label style={/pgf/number format/1000 sep=},
+extra y tick style={grid=major, tick label style={xshift=-1cm}},
+ylabel={Pressure  ($hPa$)},
+date ZERO=2021-01-01,% <- improves precision!
+]
+\addplot[black] table[x=date,y=value] {pressure.dat};
+\end{axis}
+\end{tikzpicture} \\
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[
+date coordinates in=x,
+xtick=data,
+xticklabel style=
+{rotate=90,anchor=near xticklabel},
+xticklabel=\day/\month/\year,
+title={PM10},
+xlabel={Date ($dd/mm/yyyy$)},
+xtick={2021-07-28, 2021-08-23,2021-11-02,2021-11-27},
+y tick label style={/pgf/number format/1000 sep=},
+extra y tick style={grid=major, tick label style={xshift=-1cm}},
+ylabel={PM10  ($\frac{\mu g}{m^3}$)},
+date ZERO=2021-01-01,% <- improves precision!
+]
+\addplot[black] table[x=date,y=value] {pm10.dat};
+\end{axis}
+\end{tikzpicture} &
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[
+date coordinates in=x,
+xtick=data,
+xticklabel style=
+{rotate=90,anchor=near xticklabel},
+xticklabel=\day/\month/\year,
+title={PM2.5},
+xlabel={Date ($dd/mm/yyyy$)},
+xtick={2021-07-28, 2021-08-23,2021-11-02,2021-11-27},
+y tick label style={/pgf/number format/1000 sep=},
+extra y tick style={grid=major, tick label style={xshift=-1cm}},
+ylabel={PM2.5 ($\frac{\mu g}{m^3}$)},
+date ZERO=2021-01-01,% <- improves precision!
+]
+\addplot[black] table[x=date,y=value] {pm25.dat};
+\end{axis}
+\end{tikzpicture} &
+\begin{tikzpicture}[scale=0.7]
+\begin{axis}[
+date coordinates in=x,
+xtick=data,
+xticklabel style=
+{rotate=90,anchor=near xticklabel},
+xticklabel=\day/\month/\year,
+title={Smoke},
+xlabel={Date ($dd/mm/yyyy$)},
+xtick={2021-07-28, 2021-08-23,2021-11-02,2021-11-27},
+y tick label style={/pgf/number format/1000 sep=},
+extra y tick style={grid=major, tick label style={xshift=-1cm}},
+ylabel={Smoke ($\frac{\mu g}{m^3}$)},
+date ZERO=2021-01-01,% <- improves precision!
+]
+\addplot[black] table[x=date,y=value] {smoke.dat};
+\end{axis}
+\end{tikzpicture}
+\end{tabular}
+}
+\caption{Average daily data recorded by the station}
+\end{figure}

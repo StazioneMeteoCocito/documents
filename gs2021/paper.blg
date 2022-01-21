@@ -1,0 +1,19 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'paper.blg'
+[69] biber:322> INFO - === lun gen 17, 2022, 19:08:26
+[85] Biber.pm:415> INFO - Reading 'paper.bcf'
+[157] Biber.pm:943> INFO - Found 3 citekeys in bib section 0
+[169] Biber.pm:4256> INFO - Processing section 0
+[170] Utils.pm:75> INFO - Globbing data source 'bib.bib'
+[170] Utils.pm:91> INFO - Globbed data source 'bib.bib' to bib.bib
+[180] Biber.pm:4455> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[181] bibtex.pm:1653> INFO - LaTeX decoding ...
+[187] bibtex.pm:1471> INFO - Found BibTeX data source 'bib.bib'
+[233] Utils.pm:293> WARN - month field 'Oct' in entry 'pmcovid' is not an integer - this will probably not sort properly.
+[241] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[241] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[241] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[242] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[250] bbl.pm:652> INFO - Writing 'paper.bbl' with encoding 'UTF-8'
+[253] bbl.pm:755> INFO - Output to paper.bbl
+[254] Biber.pm:128> INFO - WARNINGS: 1
