@@ -1,0 +1,7 @@
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\contentsline {section}{\numberline {1}Propagazione dell'urto e modello probabilistico}{3}%
+\contentsline {section}{\numberline {2}Calcolo degli istanti di arrivo}{4}%
+\contentsline {subsection}{\numberline {2.1}$P$ (minimo)}{5}%
+\contentsline {subsection}{\numberline {2.2}$P'$ (massimo)}{5}%
+\contentsline {subsection}{\numberline {2.3}$R$ (medio)}{6}%
